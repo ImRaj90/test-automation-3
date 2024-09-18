@@ -23,5 +23,5 @@ jobs:
         cache: maven
     - name: Run test with Maven
       run: | 
-        mvn clean test
+        mvn compile
         mvn clean test -DsuiteFile="testng.xml"
